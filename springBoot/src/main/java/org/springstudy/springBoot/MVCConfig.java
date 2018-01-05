@@ -42,6 +42,8 @@ public class MVCConfig extends WebMvcConfigurerAdapter{
 		// TODO Auto-generated method stub
 		//指定项目首页（http://localhost/boots/）
 		registry.addViewController("/").setViewName("index");
+		registry.addViewController("/page/wsp2s").setViewName("wsp2s");
+		registry.addViewController("/page/wsp2p").setViewName("wsp2p");
 	}
 	/**
 	 * 配置静态资源路径

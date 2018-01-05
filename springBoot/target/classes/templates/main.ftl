@@ -20,5 +20,9 @@
 	<p/>
 	
 	<a href="sysmag/hello?name=asdf">点击进入，Freemaker页面</a>
+	<p/>
+	<a href="page/wsp2s">点击进入，websocket广播模式页面</a>
+	<p/>
+	<a href="page/wsp2p">点击进入，websocket点对点模式页面</a>
 </body>
 </html>
