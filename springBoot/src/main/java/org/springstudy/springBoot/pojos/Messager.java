@@ -1,5 +1,9 @@
 package org.springstudy.springBoot.pojos;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Messager {
 
 	private boolean status;
@@ -13,12 +17,14 @@ public class Messager {
 		this.status = status;
 		this.information = information;
 	}
+	@XmlElement
 	public boolean isStatus() {
 		return status;
 	}
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
+	@XmlElement
 	public String getInformation() {
 		return information;
 	}
