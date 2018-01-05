@@ -1,0 +1,2 @@
+2018-01-02 16:29:04.813 [Thread-2] WARN  o.s.b.f.s.DisposableBeanAdapter -Invocation of destroy method 'close' failed on bean with name 'sqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2018-01-02 16:35:52.732 [Thread-2] WARN  o.s.b.f.s.DisposableBeanAdapter -Invocation of destroy method 'close' failed on bean with name 'sqlSessionTemplate': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession

@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springstudy.springBoot.configure.Author",
+      "name": "author",
+      "type": "org.springstudy.springBoot.configure.Author"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springstudy.springBoot.configure.Author",
+      "name": "author.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springstudy.springBoot.configure.Author",
+      "name": "author.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
