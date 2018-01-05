@@ -29,13 +29,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
-
+		
+		<!-- 引入mybatis兼容spring框架的相关兼容包 -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
+		<!-- 引入数据源连接池相关JAR包 -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
@@ -53,24 +55,28 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.20</version>
 		</dependency>
-
+		
+		<!-- 引入MD5加密工具类 -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
 			<version>1.10</version>
 		</dependency>
 
-
+		<!-- 引入freemarker 模板引擎相关JAR包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 
+		<!-- 引入websocket B/S Socket通信相关JAR包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
 
+
+		<!-- 引入cxf jaxws,jaxrs 相关JAR包 -->
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-spring-boot-starter-jaxws</artifactId>
@@ -90,6 +96,7 @@
 			<version>3.0.1</version>
 		</dependency>
         
+        <!-- 引入Rest Webservice (wadl) 描述文件相关JAR包-->
         <dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-rs-service-description</artifactId>
@@ -101,9 +108,8 @@
             <artifactId>jackson-jaxrs</artifactId>
             <version>1.9.13</version>
         </dependency>
-
-
-
+		
+		<!-- 引入springboot 的自动配置组件，相关JAR包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
